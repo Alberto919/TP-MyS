@@ -20,20 +20,20 @@ int main (void)
 	    	xil_printf( "\n   4. Dividir dos numeros positivos.", 163 );
 	    	xil_printf( "\n   5. Salir.\n" );
 	    	LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 0);
-	        /* Filtramos la opci髇 elegida por el usuario */
+	        /* Filtramos la opci贸n elegida por el usuario */
 	    	xil_printf( "\n   Introduzca opcion (1-5): ", 162 );
 	        do
 	        {
 	            scanf( "%c", &opcion);
 
 	        } while ( opcion < '1' || opcion > '5' );
-	        /* La opci髇 s髄o puede ser '1', '2', '3', '4' o '5' */
+	        /* La opci贸n s贸lo puede ser '1', '2', '3', '4' o '5' */
 
 	        switch ( opcion )
 	        {
-	                      /* Opci髇 1: Sumar */
+	                      /* Opci贸n 1: Sumar */
 	            case '1': xil_printf( "\n   Introduzca primer sumando: " );
-	            		  LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 1);
+	            		  LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 1); //enciendo LED 1
 	                      scanf( "%d", &OpA);
 	                      xil_printf( "\n   Introduzca segundo sumando: " );
 	                      scanf( "%d", &OpB);
@@ -43,9 +43,9 @@ int main (void)
 	                      result = CALCULADORA_IP_mReadReg(XPAR_CALCULADORA_IP_0_S_AXI_BASEADDR, CALCULADORA_IP_S_AXI_SLV_REG4_OFFSET);
 	                      xil_printf( "\n   %d + %d = %d\n", OpA, OpB, result);
 	                      break;
-	                      /* Opci髇 2: Restar */
+	                      /* Opci贸n 2: Restar */
 	            case '2': xil_printf( "\n   Introduzca minuendo: " );
-	            		  LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 2);
+	            		  LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 2); //enciendo LED 2
 	                      scanf( "%d", &OpA);
 	                      xil_printf( "\n   Introduzca sustraendo: " );
 	                      scanf( "%d", &OpB);
@@ -56,9 +56,9 @@ int main (void)
 						  xil_printf( "\n   %d - %d = %d\n", OpA, OpB, result );
 	                      break;
 
-	                      /* Opci髇 3: Multiplicar */
+	                      /* Opci贸n 3: Multiplicar */
 	            case '3': xil_printf( "\n   Introduzca primer operando: " );
-	            		  LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 4);
+	            		  LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 4); //enciendo LED 3
 	                      scanf( "%d", &OpA);
 	                      xil_printf( "\n   Introduzca segundo operando: " );
 	                      scanf( "%d", &OpB);
@@ -74,9 +74,9 @@ int main (void)
 							  }
 	                      break;
 
-	                      /* Opci髇 4: Divisi髇 entera */
+	                      /* Opci贸n 4: Divisi贸n entera */
 	            case '4': xil_printf( "\n   Introduzca dividendo: " );
-      		              LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 8);
+      		              LED_IP_mWriteReg(XPAR_LED_IP_0_S_AXI_BASEADDR, 0, 8); //enciendo LED 4
 	                      scanf( "%d", &OpA);
 	                      xil_printf( "\n   Introduzca divisor: " );
 	                      scanf( "%d", &OpB);
