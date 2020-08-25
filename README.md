@@ -1,4 +1,5 @@
-# TP-MyS
+# TP-MyS 
+### Yapura, Alberto Emanuel
 ## Trabajo Práctico Final - Microarquitecturas y Softcores
 
 El presente trabajo práctico corresponde al desarrollo de una calculadora que permite realizar cuatro funciones básicas, que son la de sumar, restar, multiplicar y dividir números enteros utilizando VHDL como lenguaje de programación.
