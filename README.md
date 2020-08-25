@@ -11,4 +11,4 @@ El módulo Sumador/Restador permite realizar la suma/resta de número enteros co
 <img src="https://github.com/KayboProject/TP-MyS/blob/master/image/Screenshot_4.jpg" width="200" height="200" /><img src="https://github.com/KayboProject/TP-MyS/blob/master/image/Screenshot_3.jpg" width="500"/>
 
 ### Presentación
-[https://docs.google.com/presentation/d/1-NR2PYbzTOPi50rXaUMDl-ZQHtH8nMT3KsmR6dgMCA4/edit#slide=id.g927b497ff8_0_94](https://docs.google.com/presentation/d/1-NR2PYbzTOPi50rXaUMDl-ZQHtH8nMT3KsmR6dgMCA4/edit#slide=id.g927b497ff8_0_94)
+[https://docs.google.com/presentation/d/1-NR2PYbzTOPi50rXaUMDl-ZQHtH8nMT3KsmR6dgMCA4/edit#slide=id.p1](https://docs.google.com/presentation/d/1-NR2PYbzTOPi50rXaUMDl-ZQHtH8nMT3KsmR6dgMCA4/edit#slide=id.p1)
