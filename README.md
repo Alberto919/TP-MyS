@@ -8,8 +8,7 @@ conecta la IP generada y una IP que permite controlar los led de la placa Arty Z
 
 El módulo Sumador/Restador permite realizar la suma/resta de número enteros con signo, característica no implementada en los módulos División y Multiplicación que solo admite número enteros sin signo
 
-![Scheme](https://github.com/KayboProject/TP-MyS/blob/master/image/Screenshot_4.jpg)
-![Scheme](https://github.com/KayboProject/TP-MyS/blob/master/image/Screenshot_3.jpg)
+<img src="https://github.com/KayboProject/TP-MyS/blob/master/image/Screenshot_4.jpg" width="200" height="200" /><img src="https://github.com/KayboProject/TP-MyS/blob/master/image/Screenshot_3.jpg" width="500"/>
 
 ### Presentación
 [https://docs.google.com/presentation/d/1-NR2PYbzTOPi50rXaUMDl-ZQHtH8nMT3KsmR6dgMCA4/edit#slide=id.g927b497ff8_0_94](https://docs.google.com/presentation/d/1-NR2PYbzTOPi50rXaUMDl-ZQHtH8nMT3KsmR6dgMCA4/edit#slide=id.g927b497ff8_0_94)
